@@ -353,9 +353,13 @@ main img{
 
     color: var(--secondary-color2);
 }	
-.schedules > img{
+.schedules > .img-container{
     flex: 1;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.img-container > img{
     width: 100%;
     height: 100%;
 }
