@@ -324,7 +324,7 @@ main img{
     display: flex;
     gap: 5%;
 }
-.about-day-inner-container > div{
+.about-day-inner-container > .about-day-teezy{
     flex: 1;
 
     display: flex;
@@ -334,10 +334,15 @@ main img{
     flex-direction: column;
     font-size: var(--text-size)
 }
-.about-day-inner-container > img{
+.about-img-container{
     flex: 1;
-    object-fit: cover;
     width: 100%;
+    height: 100%;
+}
+.about-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
